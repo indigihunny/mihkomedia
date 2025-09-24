@@ -22,9 +22,10 @@ nav a{
 }
 
 /* Style a button when the user hovers over it */
+
 nav a:hover {
-  background-color:#A6101F;
-  cursor: pointer;
+    background-color:#A6101F;
+    cursor: pointer;
 
 }
 nav ul{
