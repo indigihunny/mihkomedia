@@ -1,13 +1,14 @@
+
+/* best to set border-box in universal selector so all elements are calculated with width, height, padding, and border */
 *{
-    box-sizing:border-box;
-    margin:auto;
+    box-sizing: border-box;
 }
 
 body {
     background-color:whitesmoke;
     font-family:'Courier New', Courier, monospace;
     text-align:center;
-    margin:50px;
+    margin:20px;
  
 }
 
@@ -15,11 +16,11 @@ nav{
     
     font-family:monospace;
     background-color:black;
-    padding-block:25px;
-    line-height:25px;
+    line-height: 25px;
     list-style-type:none;
-    margin:auto;
+    padding:25px 25px;
     font-weight:lighter;
+  
 }
 
 nav a{
@@ -27,6 +28,8 @@ nav a{
     color:whitesmoke;
     font-size:large;
     text-decoration:none;
+    padding:5px 5px;
+  
 
 }
 
@@ -44,6 +47,7 @@ h1 {
     font-family: "Source Serif 4", serif;
     font-size:75px;
     font-style:italic;
+    padding-bottom:10px;
     
     
 }
@@ -52,13 +56,15 @@ h2{
     color:#383839;
     font-family:"Source Serif 4",serif;
     font-size:55px;
+    padding-bottom:1px;
     
 }
 
 h3{
-    color:#383839;
+    color:lightgray;
     font-family: "Source Serif 4", serif;
     font-size:35px;
+    padding-top:10px;
    
 }
 
@@ -74,13 +80,13 @@ footer{
     font-weight:lighter;
     color:whitesmoke;
     background-color: black;
+    padding-bottom:15px;
 }
 
 footer a{
     color:whitesmoke;
     text-decoration:none;
-
-
+    
 }
 
 footer a:hover{
@@ -88,14 +94,18 @@ footer a:hover{
     background-color:#A6101F;
 }
 
-.title{
-    margin:5px;
-}
-
-#bio{
-
+img{
     display:block;
-    margin:20px 15px;
-    padding:1px 5px;
+    margin:10px auto;
 }
 
+#header_title{
+
+    border-bottom:5px solid #383839;
+    padding:10px 50px;
+}
+
+.about{
+    width:50%;
+    margin:0 auto;
+}
