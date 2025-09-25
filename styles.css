@@ -8,7 +8,7 @@ body {
     background-color:whitesmoke;
     font-family:'Courier New', Courier, monospace;
     text-align:center;
-    margin:20px;
+    margin:auto;
  
 }
 
@@ -16,7 +16,7 @@ nav{
     
     font-family:monospace;
     background-color:black;
-    line-height: 25px;
+    line-height: 45px;
     list-style-type:none;
     padding:25px 25px;
     font-weight:lighter;
@@ -43,33 +43,49 @@ nav a:hover {
 }
    
 h1 {
-    color:rgb(81, 80, 80);
+    color:teal;
     font-family: "Source Serif 4", serif;
     font-size:75px;
-    font-style:italic;
+    font-style:normal;
     padding-bottom:10px;
     
     
 }
 
 h2{ 
-    color:#383839;
+    color:black;
     font-family:"Source Serif 4",serif;
     font-size:55px;
     padding-bottom:1px;
+    border-bottoM:5px solid #383839;
     
 }
 
 h3{
-    color:lightgray;
+    color:darkgrey;
     font-family: "Source Serif 4", serif;
     font-size:35px;
     padding-top:10px;
    
 }
+p{
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    font-style:normal;
+    font-weight:bolder;
+    font-size:large;
+    margin:50px 25px;
+    
+
+}
+
+.email{
+    font-family:monospace;
+    color:whitesmoke;
+}
 
 strong{
-
+    font-family:monospace;
     color: #A6101F;
 }
 
@@ -84,20 +100,23 @@ footer{
 }
 
 footer a{
+    font-family: monospace;
     color:whitesmoke;
     text-decoration:none;
-    
+
 }
 
-footer a:hover{
+em{
+    font-family:monospace;
+    color:teal;
 
-    background-color:#A6101F;
 }
 
-img{
-    display:block;
-    margin:10px auto;
-}
+.copyright{
+    color:whitesmoke;
+    font-family: monospace;
+    font-weight:lighter;
+}x
 
 #header_title{
 
@@ -108,4 +127,11 @@ img{
 .about{
     width:50%;
     margin:0 auto;
+}
+.sold{
+    font-family:monospace;
+    font-size:25px;
+    color:darkturquoise;
+    border-radius:200%;
+    border-style:double;
 }
