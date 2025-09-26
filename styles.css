@@ -93,7 +93,7 @@ p{
     font-style:normal;
     font-weight:bolder;
     font-size:large;
-    margin:50px 25px;
+    margin:50px 75px;
     
 
 }
@@ -138,8 +138,8 @@ em{
 }
 
 #header_title{
-    font-family:monospace;
-    color:whitesmoke;
+    color:teal;
+    background-color: whitesmoke;
     padding:10px 50px;
 }
 
@@ -153,4 +153,6 @@ em{
     color:darkturquoise;
     border-radius:200%;
     border-style:double;
+    width:50%;
+    margin:0 auto;
 }
