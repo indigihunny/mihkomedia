@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+.image-container{
+  width:auto;
+  height:auto;
+  border: 1px solid #383839;
+  background-image: url(../mihkomedia/images/Askiy\ Okisikow\ Backdrops.png);
+  background-repeat: no-repeat;
+  /* The contain value will make sure the entire photo fits within the box */
+  /* background-size: contain; */
+  /* ---------------------------- */
+  /* The cover value will make sure the photo covers the width of the box */
+  /* background-size: cover; */
+  background-size:100%;
+  /* background-position: center; */
+  background-position: 100% 100%;
+}
+
+
+
+
 body {
     background-color:whitesmoke;
     font-family:'Courier New', Courier, monospace;
@@ -47,7 +66,7 @@ h1 {
     font-family: "Source Serif 4", serif;
     font-size:75px;
     font-style:normal;
-    padding-bottom:10px;
+    
     
     
 }
@@ -57,7 +76,7 @@ h2{
     font-family:"Source Serif 4",serif;
     font-size:55px;
     padding-bottom:1px;
-    border-bottoM:5px solid #383839;
+    border-bottom:5px solid #383839;
     
 }
 
@@ -116,11 +135,11 @@ em{
     color:whitesmoke;
     font-family: monospace;
     font-weight:lighter;
-}x
+}
 
 #header_title{
-
-    border-bottom:5px solid #383839;
+    font-family:monospace;
+    color:whitesmoke;
     padding:10px 50px;
 }
 
